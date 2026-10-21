@@ -1,0 +1,21 @@
+﻿<Window x:Class="Nakup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nakup"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFB5B5B5">
+        <Button x:Name="btnKukla" Content="Kukla 2€" HorizontalAlignment="Left" Margin="25,25,0,0" Width="432" Background="#FFCC6F00" Click="btnKukla_Click" Height="58" VerticalAlignment="Top"/>
+        <Button x:Name="btnJazda" Content="Jazda 15€" HorizontalAlignment="Left" Margin="25,88,0,0" VerticalAlignment="Top" Height="58" Width="432" Background="#FFCC6F00" Click="btnJazda_Click"/>
+        <Button x:Name="btnKofola" Content="Kofola 2€" HorizontalAlignment="Left" Margin="25,151,0,0" VerticalAlignment="Top" Height="58" Width="432" Background="#FFCC6F00" Click="btnKofola_Click"/>
+        <Button x:Name="BtnJedlo" Content="Jedlo 10€" HorizontalAlignment="Left" Margin="25,214,0,0" VerticalAlignment="Top" Height="58" Width="432" Background="#FFCC6F00" Click="BtnJedlo_Click"/>
+        <Button x:Name="btnMagnetka" Content="Magnetka 5€" HorizontalAlignment="Left" Margin="25,277,0,0" VerticalAlignment="Top" Height="58" Width="432" Background="#FFCC6F00" Click="btnMagnetka_Click"/>
+        <Button x:Name="btn1hPrenájom" Content="1 H Perenájom 120€" HorizontalAlignment="Left" Margin="25,340,0,0" VerticalAlignment="Top" Height="58" Width="432" Background="#FFCC6F00" Click="btn1hPrenájom_Click"/>
+        <TextBlock x:Name="txtblocik" HorizontalAlignment="Left" Height="250" Margin="475,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" Background="#FFF4E5C5" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <Label x:Name="lblSuma" HorizontalAlignment="Left" Height="29" Margin="475,280,0,0" VerticalAlignment="Top" Width="301" Background="White"/>
+        <Button x:Name="btnNovyNakup" Content="Nový Nákup" HorizontalAlignment="Left" Margin="535,338,0,0" VerticalAlignment="Top" Height="58" Width="181" Background="#FFDDDDDD" Click="btnNovyNakup_Click"/>
+
+    </Grid>
+</Window>
